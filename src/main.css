@@ -1,43 +1,45 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #23272f;
   font-family: "Roboto", sans-serif;
 }
 
 a {
-  color: #885df1;
+  color: #3aafa9;
 }
 
 .weather-app {
-  background: pink;
+  background: #1a2238;
   max-width: 600px;
   margin: 45px auto;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 0 30px 50px rgba(48, 76, 137, 0.15);
   border-radius: 16px;
   padding: 30px;
 }
 
 header {
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 1px solid #304c89;
   padding: 0 0 30px 0;
 }
 
 .search-form-input {
-  background-color: #f9f7fe;
+  background-color: #23272f;
   border: none;
   border-radius: 6px;
   width: 80%;
   font-size: 16px;
   padding: 15px 20px;
+  color: #eaeaea;
 }
 
 .search-form-button {
-  background: #885df1;
+  background: #3aafa9;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
   margin-left: 5px;
   border-radius: 6px;
-  color: white;
+  color: #1a2238;
+  font-weight: bold;
 }
 
 main {
@@ -53,17 +55,18 @@ main {
   margin: 0;
   font-size: 38px;
   line-height: 48px;
+  color: #eaeaea;
 }
 
 .weather-app-details {
   font-size: 16px;
-  color: rgba(39, 33, 66, 0.4);
+  color: #bfc0c0;
   line-height: 24px;
   font-weight: 500;
 }
 
 .weather-app-details strong {
-  color: #f65282;
+  color: #f76c6c;
 }
 
 .weather-app-temperature-container {
@@ -79,11 +82,13 @@ main {
   font-size: 88px;
   line-height: 88px;
   font-weight: bold;
+  color: #eaeaea;
 }
 
 .weather-app-unit {
   margin-top: 6px;
   font-size: 28px;
+  color: #bfc0c0;
 }
 
 .weather-forecast {
@@ -94,7 +99,7 @@ main {
 
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: #bfc0c0;
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
@@ -106,9 +111,10 @@ main {
   display: block;
   margin: 0 auto;
 }
+
 .weather-forecast-temperatures {
   text-align: center;
-  color: #f65282;
+  color: #f76c6c;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -119,9 +125,9 @@ main {
 }
 
 footer {
-  border-top: 1px solid #f9f7fe;
+  border-top: 1px solid #304c89;
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.6);
+  color: #bfc0c0;
 }
